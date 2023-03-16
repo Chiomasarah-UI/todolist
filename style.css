@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fire sans', sans-serif;
+}
+
+body{
+    background-color:  rgb(3, 3, 43);
+    text-align: center;
+}
+
+header{
+    margin-top: 4rem;
+}
+
+h1{
+    color: crimson;
+}
+
+.taskList{
+    color: crimson;
+    margin-top: 4rem;
+}
+
+#newTask{
+    border: none;
+    height: 3rem;
+    width:25rem;
+    background-color: rgb(175, 197, 197);
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    border-radius: .5rem 0 0 .5rem;
+}
+
+#newTask:focus{
+    outline: none;
+    border-top: indianred;
+}
+
+#taskSubmit{
+    background-color: rgb(32, 121, 236);
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    margin-left: -1rem;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+.taskContain{
+    background-color: transparent;
+    display: flex;
+    border: 1px solid;
+    border-radius: .5rem;
+    border-color: crimson;
+    width: 48%;
+    position: relative;
+    left: 27%;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.taskWrap{
+    background-color: transparent;
+    text-align: left;
+    width: 32rem;
+    height: 3rem;
+    border: none;
+    padding-top: .8rem;
+    margin-left: 0rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.text:focus{
+    outline: none;   
+}
+
+.edit{
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.delete{
+    background-color: transparent;
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.edit:hover, .delete:hover{
+    color: crimson;
+}
+
